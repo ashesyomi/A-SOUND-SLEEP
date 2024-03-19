@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A SOUND SLEEP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400&display=swap');
+        *{
+            font-family: 'IBM Plex Sans KR', sans-serif;
+            font-size:20px;
+        }
+        #home{
+            position:relative;
+            display:inline-block;
+            margin:20px 100px 0px 30px;
+            width:280px;
+            height:70px;
+        }
+        nav{
+            position:absolute;
+            left:400px;
+            top:10px;
+            display:inline-block;
+            margin-bottom:20px;
+            padding-top:30px;
+        }
+        #home_back{
+            width:100%;
+        }
+    	.dropdownmenu ul, .dropdownmenu li {
+			margin: 0;
+			padding: 0;
+		}
+		.dropdownmenu ul {
+			list-style: none;
+			width: 160%;
+            float:center;
+		}
+		.dropdownmenu li {
+			float: left;
+			position: relative;
+			width:auto;
+		}
+		.dropdownmenu a {
+			color:black;
+			display: block;
+			padding: 10px 25px;
+			text-align: center;
+			text-decoration: none;
+			-webkit-transition: all .25s ease;
+			-moz-transition: all .25s ease;
+			-ms-transition: all .25s ease;
+			-o-transition: all .25s ease;
+			transition: all .25s ease;
+		}
+		.dropdownmenu ul :hover a {
+			color: rgb(105, 143, 240);
+        }
+		#submenu {
+			left: 0;
+			opacity: 0;
+			position: absolute;
+			top: 35px;
+			visibility: hidden;
+			z-index: 1;
+		}
+		li:hover ul#submenu {
+			opacity: 1;
+			top: 50px;
+			visibility: visible;
+		}
+		#submenu li {
+			float: none;
+			width: 100% auto; 
+		}
+		#submenu a:hover {
+			background: rgb(105, 143, 240);
+			color:white;
+		}
+		#submenu a{
+			background-color:white;
+			color:black;
+            font-size:18px;
+		}
+		#drop{
+			float:center;
+			margin-right:100px;
+            /*border-bottom:2px solid rgb(105, 143, 240);*/
+		}.main_image {
+            position: relative;
+        }
+        .main_image_text {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate( -50%, -50% );
+            color: white;
+            text-shadow:1px 2px 2px grey;
+        }
+        .submenu li{
+            font-size:15px;
+        }
+        h1{
+            font-size:50px;
+        }
+        /**/
+        h4{
+            border-bottom:2px solid rgb(162, 162, 162);
+            margin:0px 50px 50px 50px;
+            padding:30px 0px 20px 60px;
+            font-size:20px;
+        }
+        .box{
+            margin:auto;
+            text-align: center;
+            border-radius: 20px;
+            background-color:rgb(100, 144, 255);
+            color:white;
+            margin-bottom:50px;
+            margin-top:70px;
+        }
+        #stretch{
+            margin:0px 15%;
+            border:2px dashed rgb(170, 170, 170);
+            padding:30px;
+            /*align-items: center;*/
+        }
+        #stretch img{
+            margin:auto;
+            padding:20px 60px;
+            vertical-align:middle;
+            display:inline;
+        }
+        #stretch p{
+            /*width:400px;*/
+            text-align: left;
+            font-size:17px;
+        }
+        #br{
+            display:block;
+            margin:auto;
+        }
+        #br_p{
+            text-align: center;
+            float:left;
+            display:inline;
+            padding:10px 40px;
+        }
+        #bbr{
+            margin:0 auto;
+            text-align: center;
+            width:770px;
+        }
+        #content{
+            display:inline-block;
+            /*margin-left:50px;*/
+        }
+    </style>
+</head>
+<body>
+	<header>
+        <div>
+            <a href="http://yoomi000210.dothome.co.kr//web_main.html">
+            <image src="https://ifh.cc/g/rkyXyl.png" id="home"></image>
+            </a>
+        </div>
+        <nav class="dropdownmenu">
+            <ul>
+                <li class="drop" id="drop"><a href="#">불면증이란?</a>
+                    <ul id="submenu">
+                        <li><a href="http://yoomi000210.dothome.co.kr//website1_1.html">불면증</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website1_2.html">자가진단</a></li>
+                    </ul>
+                </li>
+                <li class="drop" id="drop"><a href="#">수면정보</a>
+                    <ul id="submenu">
+                        <li><a href="http://yoomi000210.dothome.co.kr//website2_1.html">수면의 중요성</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website2_2.html">수면에 좋은 음식</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website2_3.html">수면위생법</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website2_4.html">수면을 위한 십계명</a></li>
+                    </ul>
+                </li>
+                <li class="drop" id="drop"><a href="#">수면자료</a>
+                    <ul id="submenu">
+                        <li><a href="http://yoomi000210.dothome.co.kr//website3_1.html">ASMR</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website3_2.html">수면음악</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website3_4.html">스트레칭과 호흡법</a></li>
+                    </ul>
+                </li>
+                <li class="drop" id="drop"><a href="http://yoomi000210.dothome.co.kr//website4.html">제품구매</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h4>스트레칭과 호흡법</h4>
+    <p class="box" style="width:120px;">고양이자세</p>
+    <div id="stretch">
+        <div>
+            <img src="https://ifh.cc/g/nswkcN.png" style="width:247px; height:152px;" align=middle>
+            <div id="content" style="margin-left:50px;">
+                <b>
+                <p>기어가는 자세에서 두 손과 무릎을</p>
+                <p>각각 어깨너비만큼 벌립니다.</p>
+            </div>
+        </div>
+        <div>
+            <img src="https://ifh.cc/g/Fr94WM.png" style="width:247px; height:152px;" align=middle>
+            <div id="content" style="margin-left:50px;">
+                <p>숨을 내쉬면서 머리를 숙이는 동시에 복부를 등쪽으로 당기고</p>
+                <p>허리를 천장쪽으로 둥글게 끌어올립니다. (5초간 유지 후 처음자세로)</p>
+                </b>
+            </div>
+        </div>
+    </div>
+    <p class="box" style="width:190px;">무릎꿇고 엎드리기</p>
+    <div id="stretch">
+        <div>
+            <img src="https://ifh.cc/g/7tX5YR.png" style="width:157px; height:207px;" align=middle>
+            <div id="content" style="margin-left:140px;">
+            <b>
+            <p>무릎을 바닥에 대고 발등이 바닥에 닿게 앉습니다.</p>
+            </div>
+        </div>
+        <div>
+            <img src="https://ifh.cc/g/fRFQhW.png" style="width:288px; height:96px;" align=middle>
+            <div id="content" style="margin-left:10px;">
+            <p>양팔을 앞으로 쭉 뻗으며 손과 이마가 바닥에 닿을 정도로 천천히 숙입니다.</p>
+            <p>최대한 숙인 후 자세를 유지합니다. (15~30초 지속)</p>
+            </b>
+            </div>
+        </div>
+    </div>
+    <p class="box" style="width:200px;">앉아서 몸통 비틀기</p>
+    <div id="stretch">
+        <div>
+            <img src="https://ifh.cc/g/k71fT3.png" style="width:227px; height:194px;" align=middle>
+            <div id="content" style="margin-left:70px;">
+            <b>
+            <p>다리를 뻗고 앉은 상태에서 오른발을 왼쪽 무릎 바깥쪽에 내려놓습니다.</p>
+            </div>
+        </div>
+        <div>
+            <img src="https://ifh.cc/g/xThcgy.png" style="width:275px; height:193px;" align=middle>
+            <div id="content" style="margin-left:20px;">
+            <p>숨을 들이마시면서 왼팔을 위로 올려 몸을 회전시킬 준비를 한 뒤</p>
+            <p>왼팔 겨드랑이와 오른쪽 무릎을 교차시키면서 몸을 회전시킵니다.</p>
+            <p>(30~40초 자세를 유지)</p>
+            </b>
+            </div>
+        </div>
+    </div>
+    <br>
+    <p class="box" style="width:170px; background-color: rgb(230, 207, 133);">4-7-3 호흡법</p>
+    <img src="https://ifh.cc/g/NswCzp.jpg" id="br">
+    <b><div id="bbr">
+        <div id="br_p">
+            <h2>①</h2>
+            <p style="text-decoration:underline; font-size:18px;">4초간 숨 들이마시기</p>
+            <p style="font-size:16px;">입을 다문 상태에서 4초간</p>
+            <p style="font-size:16px;">코로 천천히 숨을 들이마십니다.</p>
+        </div>
+        <div id="br_p">
+            <h2>②</h2>
+            <p style="text-decoration:underline; font-size:18px;">7초간 멈추기&nbsp;</p>
+            <p style="font-size:16px;">숨을 들이마신 후&nbsp;</p>
+            <p style="font-size:16px;">7초간 숨을 멈추어주세요.&nbsp;</p>
+        </div>
+        <div id="br_p">
+            <h2>③</h2>
+            <p style="text-decoration:underline; font-size:18px;">&nbsp;8초간 숨 내뱉기</p>
+            <p style="font-size:16px;">&nbsp;8초를 천천히 세면서</p>
+            <p style="font-size:16px; margin-bottom:50px;">&nbsp;입으로 숨을 내뱉습니다.</p>
+        </div>
+    </div></b>
+</body>
+</html>

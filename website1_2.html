@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A SOUND SLEEP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400&display=swap');
+        *{
+            font-family: 'IBM Plex Sans KR', sans-serif;
+            font-size:20px;
+        }
+        #home{
+            position:relative;
+            display:inline-block;
+            margin:20px 100px 0px 30px;
+            width:280px;
+            height:70px;
+        }
+        nav{
+            position:absolute;
+            left:400px;
+            top:10px;
+            display:inline-block;
+            margin-bottom:20px;
+            padding-top:30px;
+        }
+        #home_back{
+            width:100%;
+        }
+    	.dropdownmenu ul, .dropdownmenu li {
+			margin: 0;
+			padding: 0;
+		}
+		.dropdownmenu ul {
+			list-style: none;
+			width: 160%;
+            float:center;
+		}
+		.dropdownmenu li {
+			float: left;
+			position: relative;
+			width:auto;
+		}
+		.dropdownmenu a {
+			color:black;
+			display: block;
+			padding: 10px 25px;
+			text-align: center;
+			text-decoration: none;
+			-webkit-transition: all .25s ease;
+			-moz-transition: all .25s ease;
+			-ms-transition: all .25s ease;
+			-o-transition: all .25s ease;
+			transition: all .25s ease;
+		}
+		.dropdownmenu ul :hover a {
+			color: rgb(105, 143, 240);
+        }
+		#submenu {
+			left: 0;
+			opacity: 0;
+			position: absolute;
+			top: 35px;
+			visibility: hidden;
+			z-index: 1;
+		}
+		li:hover ul#submenu {
+			opacity: 1;
+			top: 50px;
+			visibility: visible;
+		}
+		#submenu li {
+			float: none;
+			width: 100% auto; 
+		}
+		#submenu a:hover {
+			background: rgb(105, 143, 240);
+			color:white;
+		}
+		#submenu a{
+			background-color:white;
+			color:black;
+            font-size:18px;
+		}
+		#drop{
+			float:center;
+			margin-right:100px;
+            /*border-bottom:2px solid rgb(105, 143, 240);*/
+		}.main_image {
+            position: relative;
+        }
+        .main_image_text {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate( -50%, -50% );
+            color: white;
+            text-shadow:1px 2px 2px grey;
+        }
+        .submenu li{
+            font-size:15px;
+        }
+        h1{
+            font-size:50px;
+        }
+        /**/
+        h4{
+            border-bottom:2px solid rgb(162, 162, 162);
+            margin:0px 50px;
+            padding:30px 0px 20px 60px;
+            font-size:20px;
+        }
+        div h5{
+            color:rgb(17, 70, 205);
+            margin:70px 120px 50px 120px;
+            text-align: center;
+            font-size:18px;
+        }
+        #p2{
+            margin:0px 140px;
+            text-align:center;
+            font-size:16px;
+            color:rgb(162, 162, 162);
+        }
+        #p1{
+            font-size:17px;
+            margin:0px 130px;
+            text-align:center;
+        }
+        .box h5{
+            color:rgb(17, 70, 205);
+            text-align: center;
+            font-size:17px;
+            margin:20px 30px 30px 30px;
+        }
+        .box p{
+            text-align:center;
+            font-size:16px;
+            color:rgb(162, 162, 162);
+            margin:20px;
+        }
+        #box1{
+            border: 3px dotted rgb(17, 70, 205);
+            width:30%;
+            margin:0 auto;
+            padding:20px;
+            width:600px;
+        }
+    </style>
+</head>
+<body>
+	<header>
+        <div>
+            <a href="http://yoomi000210.dothome.co.kr//web_main.html">
+            <image src="https://ifh.cc/g/rkyXyl.png" id="home"></image>
+            </a>
+        </div>
+        <nav class="dropdownmenu">
+            <ul>
+                <li class="drop" id="drop"><a href="#">불면증이란?</a>
+                    <ul id="submenu">
+                        <li><a href="http://yoomi000210.dothome.co.kr//website1_1.html">불면증</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website1_2.html">자가진단</a></li>
+                    </ul>
+                </li>
+                <li class="drop" id="drop"><a href="#">수면정보</a>
+                    <ul id="submenu">
+                        <li><a href="http://yoomi000210.dothome.co.kr//website2_1.html">수면의 중요성</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website2_2.html">수면에 좋은 음식</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website2_3.html">수면위생법</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website2_4.html">수면을 위한 십계명</a></li>
+                    </ul>
+                </li>
+                <li class="drop" id="drop"><a href="#">수면자료</a>
+                    <ul id="submenu">
+                        <li><a href="http://yoomi000210.dothome.co.kr//website3_1.html">ASMR</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website3_2.html">수면음악</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website3_4.html">스트레칭과 호흡법</a></li>
+                    </ul>
+                </li>
+                <li class="drop" id="drop"><a href="http://yoomi000210.dothome.co.kr//website4.html">제품구매</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h4>자가진단</h4>
+        <div>
+            <h5>1. 당신의 불면증에 관한 문제들의 현재(최근 2주간) 심한 정도를 표시해주세요.</h5>
+            <p id="p1">a. 잠들기 어렵다.</p><br>
+            <p id="p2">없음 (0점)  약간 (1점)  중간 (2점)  심함 (3점)  매우심함 (4점)</p><br>
+            <p id="p1">b. 잠을 유지하기 어렵다.</p><br>
+            <p id="p2">없음 (0점)  약간 (1점)  중간 (2점)  심함 (3점)  매우심함 (4점)</p><br>
+            <p id="p1">c. 쉽게 깬다.</p><br>
+            <p id="p2">없음 (0점)  약간 (1점)  중간 (2점)  심함 (3점)  매우심함 (4점)</p><br>
+            <h5>2. 현재 수면 양상에 관하여 얼마나 만족하고 있습니까?</h5>
+            <p id="p1">매우만족 (0점)&nbsp;&nbsp;&nbsp;약간만족 (1점)&nbsp;&nbsp;&nbsp;보통 (2점)&nbsp;&nbsp;&nbsp;약간불만족 (3점)&nbsp;&nbsp;&nbsp;매우불만족 (4점)</p>
+            <h5>3. 당신의 수면 장애가 어느정도나 당신의 낮 활동을 방해한다고 생각합니끼?<br>(예: 낮의 피곤함, 직장이나 가사의 일하는 능력, 집중력, 기억력, 기분 등)</h5>
+            <p id="p1">방해안됨 (0점)&nbsp;&nbsp;&nbsp;약간 (1점)&nbsp;&nbsp;&nbsp;다소 (2점)&nbsp;&nbsp;&nbsp;상당히 (3점)&nbsp;&nbsp;&nbsp;매우많이 (4점)</p>
+            <h5>4. 불면증으로 인한 당신의 삶의 질의 손상정도는 다른 사람에게 어떻게 보인다고 생각합니까?</h5>
+            <p id="p1">방해안됨 (0점)&nbsp;&nbsp;&nbsp;약간 (1점)&nbsp;&nbsp;&nbsp;다소 (2점)&nbsp;&nbsp;&nbsp;상당히 (3점)&nbsp;&nbsp;&nbsp;매우많이 (4점)</p>
+            <h5>5. 당신은 현재 불면증에 관하여 얼마나 걱정합니까?</h5>
+            <p id="p1">전혀안함 (0점)&nbsp;&nbsp;&nbsp;약간 (1점)&nbsp;&nbsp;&nbsp;다소 (2점)&nbsp;&nbsp;&nbsp;상당히 (3점)&nbsp;&nbsp;&nbsp;매우많이 (4점)</p>
+            <br><br><br><br>
+        </div>
+        <div class="box" id="box1">
+            <h5>모든 점수를 더했을 때, 결과는 다음과 같습니다.</h5>
+            <p>0-7점: 유의할 만한 불면증이 없습니다.</p>
+            <p>8-14점: 약간의 불면증 경향이 있습니다.</p>
+            <p>15-21점: 중도의 불면증이 있습니다.</p>
+            <p>22-28점: 심한 불면증이 있습니다.</p>
+        </div>
+</body>
+</html>

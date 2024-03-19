@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A SOUND SLEEP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400&display=swap');
+        *{
+            font-family: 'IBM Plex Sans KR', sans-serif;
+            font-size:20px;
+        }
+        #home{
+            position:relative;
+            display:inline-block;
+            margin:20px 100px 0px 30px;
+            width:280px;
+            height:70px;
+        }
+        nav{
+            position:absolute;
+            left:400px;
+            top:10px;
+            display:inline-block;
+            margin-bottom:20px;
+            padding-top:30px;
+        }
+        #home_back{
+            width:100%;
+        }
+    	.dropdownmenu ul, .dropdownmenu li {
+			margin: 0;
+			padding: 0;
+		}
+		.dropdownmenu ul {
+			list-style: none;
+			width: 160%;
+            float:center;
+		}
+		.dropdownmenu li {
+			float: left;
+			position: relative;
+			width:auto;
+		}
+		.dropdownmenu a {
+			color:black;
+			display: block;
+			padding: 10px 25px;
+			text-align: center;
+			text-decoration: none;
+			-webkit-transition: all .25s ease;
+			-moz-transition: all .25s ease;
+			-ms-transition: all .25s ease;
+			-o-transition: all .25s ease;
+			transition: all .25s ease;
+		}
+		.dropdownmenu ul :hover a {
+			color: rgb(105, 143, 240);
+        }
+		#submenu {
+			left: 0;
+			opacity: 0;
+			position: absolute;
+			top: 35px;
+			visibility: hidden;
+			z-index: 1;
+		}
+		li:hover ul#submenu {
+			opacity: 1;
+			top: 50px;
+			visibility: visible;
+		}
+		#submenu li {
+			float: none;
+			width: 100% auto; 
+		}
+		#submenu a:hover {
+			background: rgb(105, 143, 240);
+			color:white;
+		}
+		#submenu a{
+			background-color:white;
+			color:black;
+            font-size:18px;
+		}
+		#drop{
+			float:center;
+			margin-right:100px;
+            /*border-bottom:2px solid rgb(105, 143, 240);*/
+		}.main_image {
+            position: relative;
+        }
+        .main_image_text {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate( -50%, -50% );
+            color: white;
+            text-shadow:1px 2px 2px grey;
+        }
+        .submenu li{
+            font-size:15px;
+        }
+        h1{
+            font-size:50px;
+        }
+        /**/
+        h4{
+            border-bottom:2px solid rgb(162, 162, 162);
+            margin:0px 50px;
+            padding:30px 0px 20px 60px;
+            font-size:20px;
+        }
+        .title{
+            cursor: pointer;
+            width:120px;
+        }
+        .text {
+            padding: 15px 20px;
+            background-color: #c8c8c8ae;
+            border-radius: 15px;
+            display: none;
+            font-size:16px;
+            position: absolute;
+            width:28%;
+            color:white;
+        }
+        .title:hover + .text {
+            display: block;
+        }
+        #asmr{
+            margin:0px 100px;
+        }
+        video{
+            margin:50px 50px 30px 50px;
+            border-radius: 30px;
+            width:576px;
+            height:324px;
+            float:left;
+        }
+        .video{
+            margin-left:60px;
+            float:left;
+            display:inline;
+        }
+        #v{
+            float:left;
+        }
+        #mini_p{
+            width:700px;
+            text-align: center;
+            margin-bottom:50px;
+            color:gray;
+        }
+    </style>
+</head>
+<body>
+	<header>
+        <div>
+            <a href="http://yoomi000210.dothome.co.kr//web_main.html">
+            <image src="https://ifh.cc/g/rkyXyl.png" id="home"></image>
+            </a>
+        </div>
+        <nav class="dropdownmenu">
+            <ul>
+                <li class="drop" id="drop"><a href="#">불면증이란?</a>
+                    <ul id="submenu">
+                        <li><a href="http://yoomi000210.dothome.co.kr//website1_1.html">불면증</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website1_2.html">자가진단</a></li>
+                    </ul>
+                </li>
+                <li class="drop" id="drop"><a href="#">수면정보</a>
+                    <ul id="submenu">
+                        <li><a href="http://yoomi000210.dothome.co.kr//website2_1.html">수면의 중요성</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website2_2.html">수면에 좋은 음식</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website2_3.html">수면위생법</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website2_4.html">수면을 위한 십계명</a></li>
+                    </ul>
+                </li>
+                <li class="drop" id="drop"><a href="#">수면자료</a>
+                    <ul id="submenu">
+                        <li><a href="http://yoomi000210.dothome.co.kr//website3_1.html">ASMR</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website3_2.html">수면음악</a></li>
+                        <li><a href="http://yoomi000210.dothome.co.kr//website3_4.html">스트레칭과 호흡법</a></li>
+                    </ul>
+                </li>
+                <li class="drop" id="drop"><a href="http://yoomi000210.dothome.co.kr//website4.html">제품구매</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h4>ASMR</h4>
+    <div id="asmr">
+        <p class="title">ASMR이란❔</p>
+        <div class="text">자율감각 쾌락반응<br>뇌를 자극해 심리적인 안정을 유도하는 영상으로 바람이 부는 소리, 연필로 글씨를 쓰는 소리, 바스락거리는 소리 등을 제공해 준다.</div>
+    </div>
+    <div class="video">
+            <div id="v">
+                <video src="asmr/asmr4.mov" controls></video>
+                <div id="mini_p">[월레스와 그로밋 ASMR]</div>
+            </div>
+            <div id="v">
+                <video src="asmr/asmr1.MOV" poster="https://ifh.cc/g/xkTHZV.jpg" controls></video>
+                <div id="mini_p">[귀 청소 ASMR]</div>
+            </div>
+            <div id="v">
+                <video src="asmr/asmr2.mov" poster="https://ifh.cc/g/TnfRjS.jpg" controls></video>
+                <div id="mini_p">[슬립닥터 클리닉 ASMR]</div>
+            </div>
+            <div id="v">
+                <video src="asmr/asmr3.mov" poster="https://ifh.cc/g/ypGpp7.jpg" controls></video>
+                <div id="mini_p">[신선한 바람이 부는 아침 ASMR]</div>
+            </div>
+            <div id="v">
+                <video src="asmr/asmr5.mov" poster="https://ifh.cc/g/Pma21c.jpg" controls></video>
+                <div id="mini_p">[조용한 집게리아 ASMR]</div>
+            </div>
+            <div id="v">
+                <video src="asmr/asmr6.mov" controls></video>
+                <div id="mini_p" style="margin-bottom:50px;">[귀 모형 청소 ASMR]</div>
+            </div>
+        </div>
+</body>
+</html>
